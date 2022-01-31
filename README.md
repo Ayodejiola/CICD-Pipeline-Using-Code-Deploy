@@ -24,15 +24,11 @@
  1.  **Add tags to your EC2 instance**<br/>
      ![alt text](https://github.com/prabhakar2020/aws_code_deploy/blob/master/addTags.png)<br/>
  1.  **Launch instance**<br/>
- 1.  **Makesure that your bucket should enabled version**<br/>
-     ![alt text](https://github.com/prabhakar2020/aws_code_deploy/blob/master/create_bucket_version.png)<br/>
- 1.  **Goto CodeDeploy Create Application**<br/>
- 1.  **Create a DeploymentGroup**<br/>
- 1.  **Moving Your Application Into GitHub**<br/> for more details [Click Here](https://aws.amazon.com/blogs/devops/automatically-deploy-from-github-using-aws-codedeploy/)
-If the application files that you want to deploy are not already in a GitHub repository, you’ll need to set that up. Here’s how you can do it with the getting started sample application. First, download the application files. These examples use Linux / Unix commands.<br/><br/>
+ 1.  9.	Create Pipeline, add source(Github) and skip build stage
+10.	 
 
- > mkdir codedeploy-sample<br/>
-   cd codedeploy-sample<br/>
-   curl -O http://s3.amazonaws.com/aws-codedeploy-us-east-1/samples/latest/SampleApp_Linux.zip<br/><br/>
+11.	Create a DeploymentGroup
+12.	This completes Pipeline.
+13.	View application by hitting the DNS of the ec2 instance
+14.	Each time a new change is made to the Source code on the repo, the pipeline is triggered, and the deployment is updated.
 
-**You can upload SampleApp_Linux.zip file on S3 for further automatic deployment on CodeDeploy Pipeline**
