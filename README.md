@@ -1,5 +1,5 @@
 # aws_code_deploy
-## Steps for AWS code deploy using S3 as source
+## Steps for AWS code deploy using Github as source
  1.  **Create IAM Roles - CodeDeploy & EC2CodeDeploy**
  1.  **Create EC2 instance with the following software packages should install**<br/>
  1.  **Choose AMI: Amazon Linux 2**<br/>
