@@ -25,7 +25,8 @@
      ![alt text](https://github.com/prabhakar2020/aws_code_deploy/blob/master/addTags.png)<br/>
  1.  **Launch instance**<br/>
  1.  9.	Create Pipeline, add source(Github) and skip build stage
-10.	 
+![image](https://user-images.githubusercontent.com/97601366/151829161-41d298e9-7c70-447c-a3db-4d9936a8980a.png)
+
 
 11.	Create a DeploymentGroup
 12.	This completes Pipeline.
